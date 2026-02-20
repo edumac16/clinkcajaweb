@@ -10,7 +10,7 @@ ClinkCaja es una aplicación web que se ejecuta desde cualquier navegador y pued
 
 ---
 
-## Quién es el creador de ClinkCaja
+## Quién es el creador de ClinkCaja?
 
 Mi nombre es Eduardo, soy Analista de Sistemas, vivo en Uruguay y decidí crear ClinkCaja después de usar decenas de aplicaciones y ver que practicamente ninguna se adapta a la realidad de los que vivimos en Hispanoamérica.
 

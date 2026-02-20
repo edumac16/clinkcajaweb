@@ -18,6 +18,12 @@ Las categorías sirven para ordenar ingresos y gastos (Supermercado, Servicios, 
 
 Las categorías se usan en **Transacciones** (al cargar o editar), en **Reglas** (para asignar automáticamente por descripción), en **Presupuestos** y en **Tendencias**.
 
+:::tip[Transferencias]
+Para que una categoría sea tomada como transferencia, el nombre debe comenzar por `<>`
+Cuando asignas una categoría de transferencia a una transacción, ésta se toma en cuenta solo para los saldos de las cuentas, pero no afecta las gráficas, ni los ingresos y gastos.
+:::
+
+
 ---
 
 ## Subcategorías
