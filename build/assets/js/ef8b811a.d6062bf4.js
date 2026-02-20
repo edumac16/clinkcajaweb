@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkmi_sitio=globalThis.webpackChunkmi_sitio||[]).push([[947],{6600(a){a.exports=JSON.parse('{"authors":[{"name":"Eduardo Machado","title":"Creador de ClinkCaja","url":"https://edumac.123.uy","page":{"permalink":"/blog/authors/edumac"},"key":"edumac","count":0}]}')}}]);
