@@ -24,6 +24,7 @@ Los importes en **verde** son ingresos; en **rojo**, gastos. Las transferencias 
 :::tip[Recurrentes]
 Las transacciones que provienen de operaciones recurrentes tienen una línea azul junto a la fecha para que puedas identificarlas facilmente.
 :::
+
 ---
 
 ## Nueva transacción
