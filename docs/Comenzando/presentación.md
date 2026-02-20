@@ -14,6 +14,7 @@ ClinkCaja es una aplicación web que se ejecuta desde cualquier navegador y pued
 
 Mi nombre es Eduardo, soy Analista de Sistemas, vivo en Uruguay y decidí crear ClinkCaja después de usar decenas de aplicaciones y ver que practicamente ninguna se adapta a la realidad de los que vivimos en Hispanoamérica.
 
+
 ---
 
 ## Qué tiene de diferente a las demás aplicaciones?
