@@ -56,6 +56,6 @@ En la lista de transacciones, las recurrentes tienen una línea azul junto a la 
 ## Editar o eliminar
 
 - **Editar la serie:** cambiá importe, descripción, frecuencia o fecha de inicio. Las fechas futuras se recalculan.
-- **Eliminar:** la serie desaparece; las transacciones que ya se hayan generado o cargado en Transacciones pueden quedar como están (depende de la app: a veces se borran solo las futuras).
+- **Eliminar:** la serie desaparece; las transacciones que ya se hayan generado o cargado en Transacciones quedarán.
 
 Si una recurrente “ya pasó” (ej. alquiler de este mes ya lo cargaste a mano), podés dejarla igual; la próxima fecha será el próximo mes. O editar la serie si el importe o la cuenta cambiaron.
