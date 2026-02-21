@@ -18,12 +18,118 @@ const FeatureList = [
   {
     title: 'Tu contabilidad personal, sin complicaciones',
     Svg: () => <EmojiIcon emoji="🤑" label="dinero" />,
+    // img: require('@site/static/img/dashboard1.png').default,
     description: (
       <>
-        Cuentas, transacciones, importación desde el banco, presupuestos y tendencias. Todo en un solo lugar y en español.
+        Cuentas, transacciones, importación desde el banco, presupuestos y tendencias. Todo en un solo lugar y en español. Mira algunas características con imágenes a continuación
       </>
     ),
   },
+
+
+
+
+
+
+
+
+{
+  title: 'Panel principal 🔺',
+  // Aquí pasamos la ruta de la imagen
+  img: require('@site/static/img/dashboard1.webp').default,
+  description: (
+    <>
+      Aquí puedes ver los importes de patrimonio neto, ingresos y gastos.
+      Debajo un detalle de las principales categorías de ingresos y gastos.
+    </>
+  ),
+},
+
+
+{
+  title: 'Desglose de subcategorías 🔺',
+  // Aquí pasamos la ruta de la imagen
+  img: require('@site/static/img/categorias_subcategorias.webp').default,
+  description: (
+    <>
+      Al pulsar en una de las categorías, se presenta el desglose de las subcategorias y una gráfica de la tendencia en los últimos 12 meses para esa categoría.
+    </>
+  ),
+},
+
+
+{
+  title: 'Transacciones de la categoría o subcategoría 🔺',
+  // Aquí pasamos la ruta de la imagen
+  img: require('@site/static/img/transacciones.webp').default,
+  description: (
+    <>
+      Y aquí lo mejor: si pulsas en una categoría o subcategoría del gráfico, te lleva a las transacciones! Un "Drill Down" completo!.
+    </>
+  ),
+},
+
+
+
+
+
+{
+  title: 'Evolución del patrimonio 🔺',
+  // Aquí pasamos la ruta de la imagen
+  img: require('@site/static/img/evolucion_patrimonio.webp').default,
+  description: (
+    <>
+      Aquí puedes ver como ha evolucionado tu patrimonio en los últimos 12 meses
+    </>
+  ),
+},
+
+{
+  title: 'Presupuesto 🔺',
+  // Aquí pasamos la ruta de la imagen
+  img: require('@site/static/img/presupuesto.webp').default,
+  description: (
+    <>
+      Aquí puedes ver las diferentes categorías de tu presupuesto. En verde vas bien, en rojo vas mal.
+    </>
+  ),
+},
+
+
+{
+  title: 'Gráfica Sankey 🔺',
+  // Aquí pasamos la ruta de la imagen
+  img: require('@site/static/img/grafica_sankey.webp').default,
+  description: (
+    <>
+      Una gráfica Sankey te muestra en qué has gastado tus ingresos en los últimos 12 meses
+    </>
+  ),
+},
+
+{
+  title: 'Tus tarjetas bajo control 🔺',
+  // Aquí pasamos la ruta de la imagen
+  img: require('@site/static/img/grafica_tarjetas.webp').default,
+  description: (
+    <>
+      Verás en forma gráfica cuanto deberás pagar en los próximos meses, pudiendo simular pagos totales y parciales. Y Clink Caja permite que ingreses compras en cuotas!
+    </>
+  ),
+},
+
+
+
+
+
+
+
+
+
+
+
+
+
   {
     title: 'Todo lo que necesitás para llevar las cuentas',
     Svg: () => <EmojiIcon emoji="💳" label="dinero" />,
@@ -105,6 +211,19 @@ const FeatureList = [
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 ];
 
 
@@ -117,11 +236,28 @@ const FeatureList = [
 
 
 
+function Feature({img, Svg, title, description}) {
+  return (
+    <div className={clsx('col col--4')}>
+      <div className="text--center">
+        {/* Lógica para decidir si mostrar Imagen o SVG */}
+        {img ? (
+          <img src={img} className="screenshot-style" alt={title} style={{width: 'auto', height: 'auto'}} />
+        ) : (
+          <Svg className={styles.featureSvg} role="img" />
+        )}
+      </div>
+      <div className="text--center padding-horiz--md">
+        <h3>{title}</h3>
+        <p>{description}</p>
+      </div>
+    </div>
+  );
+}
 
 
 
-
-function Feature({Svg, title, description}) {
+function Feature_OLD({Svg, title, description}) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">

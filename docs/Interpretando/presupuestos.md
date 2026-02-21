@@ -24,6 +24,8 @@ Los presupuestos te permiten definir un **límite de gasto** por categoría (o g
 
 ## Ver el avance
 
+![Presupuestos](/img/presupuesto.webp)
+
 En el listado de presupuestos ves cada uno con:
 
 - El **monto asignado** (tope).

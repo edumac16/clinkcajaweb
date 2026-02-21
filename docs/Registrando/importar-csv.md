@@ -32,6 +32,8 @@ Si el archivo supera las 5.000 filas, verás un mensaje de error y tendrás que 
 
 ## Paso 2: Mapear columnas
 
+![Mapear CSV](/img/mapear_csv.webp)
+
 En la vista previa tenés que indicar **qué columna del CSV corresponde a cada dato**:
 
 | Campo        | Obligatorio | Descripción                          |

@@ -12,6 +12,8 @@ description: Cómo ver gráficos de tendencias en Clink Caja.
 
 ## Qué ves
 
+![Tendencias por categoría](/img/tendencia_de_categoria.webp)
+
 - Un **gráfico** (barras o similar) con las categorías que más gasto o más ingreso generaron.
 - Los importes suelen estar en la **moneda base** (usando la cotización si tenés dos monedas).
 
@@ -20,6 +22,9 @@ Las transferencias entre cuentas no se cuentan como ingreso ni gasto para no dup
 ---
 
 ## Drill-down (detalle)
+
+![Transacciones](/img/transacciones.webp)
+
 
 Al hacer **clic en una barra** se abre el detalle: el listado de transacciones de esa categoría en ese período. Así podés bajar del “cuánto gasté en Supermercado” a “qué movimientos son”.
 

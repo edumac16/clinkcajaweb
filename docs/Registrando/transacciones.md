@@ -52,3 +52,6 @@ Si tenés **reglas** activas, la próxima vez que cargues una descripción simil
 ## Transacciones divididas (split)
 
 Si un solo movimiento del mundo real corresponde a **varias categorías** (ej. un ticket con supermercado + limpieza), podés dividir la transacción en varias líneas con el ícono de **dividir**. Cada línea tiene su importe y categoría; la suma debe coincidir con el total. En el listado se ven con un indicador (✂️) en la descripción.
+
+![Transacciones divididas](/img/split.webp)
+

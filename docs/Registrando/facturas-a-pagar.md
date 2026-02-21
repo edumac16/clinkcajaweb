@@ -17,7 +17,7 @@ Para registrar este tipo de facturas vamos a simular que es una transacción rec
    - **Fecha de la primera ocurrencia:** la fecha de vencimiento de la factura.
    - **Descripción**, **importe**, **cuenta**, **categoría** (igual que una transacción normal).
    :::tip
-   Deja **cuenta** como `-- Sin cuenta --`, para que llegado el día del vencimiento no afecte el saldo de la cuenta hasta que no la pagues. *Desde transacciones puedes asignale la cuenta cuando realices el pago*
+   Deja **cuenta** como `-- Sin cuenta --`, para que llegado el día del vencimiento no afecte el saldo de la cuenta hasta el momento en que la pagues. *Desde transacciones puedes asignale la cuenta cuando realices el pago*
    :::
    - **Frecuencia:** mensual
    - **Número de transacciones:** Selecciona `1` (esto es lo más importante, pues no debe repetirse todos los meses).
@@ -41,6 +41,7 @@ Entonces, si tienes una factura con frecuencia **1**, la verás en **recurrentes
 
 En la lista de transacciones, las recurrentes tienen una línea azul junto a la fecha, para que puedas identificarlas.
 :::
+
 ---
 
 ## Editar o eliminar

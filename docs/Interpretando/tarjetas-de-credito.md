@@ -91,13 +91,13 @@ Así podés comparar rápido:
 :::tip[Pago total]
 Esto es lo que ves si estás pagando el 100% de la tarjeta: no hay intereses y la deuda responde sólo a las cuotas de las compras
 :::
-![Esto es lo que ves si estás pagando el 100% de la tarjeta](/img/tarjetapago100.png)
+![Esto es lo que ves si estás pagando el 100% de la tarjeta](/img/tarjetapago100.webp)
 
 
 :::tip[Pago mínimo]
 Esto es lo que ves si estás pagando el mínimo de la tarjeta: los intereses incrementan la deuda y ésta se mantiene en el tiempo
 :::
-![Esto es lo que ves si estás pagando el mínimo de la tarjeta](/img/tarjetapago10.png)
+![Esto es lo que ves si estás pagando el mínimo de la tarjeta](/img/tarjetapago10.webp)
 
 
 
