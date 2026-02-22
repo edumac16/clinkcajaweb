@@ -97,23 +97,60 @@ const FeatureList = [
 
 
 {
-  title: 'Gráfica Sankey 🔺',
-  // Aquí pasamos la ruta de la imagen
-  img: require('@site/static/img/grafica_sankey.webp').default,
-  description: (
-    <>
-      Una gráfica Sankey te muestra en qué has gastado tus ingresos en los últimos 12 meses
-    </>
-  ),
-},
-
-{
   title: 'Tus tarjetas bajo control 🔺',
   // Aquí pasamos la ruta de la imagen
   img: require('@site/static/img/grafica_tarjetas.webp').default,
   description: (
     <>
       Verás en forma gráfica cuanto deberás pagar en los próximos meses, pudiendo simular pagos totales y parciales. Y Clink Caja permite que ingreses compras en cuotas!
+    </>
+  ),
+},
+
+
+{
+  title: 'Ingresos y gastos por categoría y por mes 🔺',
+  // Aquí pasamos la ruta de la imagen
+  img: require('@site/static/img/tendencia_de_categoria.webp').default,
+  description: (
+    <>
+      Un gráfico de barras con las categorías que más gasto o más ingreso generaron junto con una curva que muestra la diferencia entre ingresos y gastos en el mismo mes del año anterior.
+    </>
+  ),
+},
+
+
+{
+  title: 'Ingresos vs gastos totales por mes 🔺',
+  // Aquí pasamos la ruta de la imagen
+  img: require('@site/static/img/trends_i_vs_g.webp').default,
+  description: (
+    <>
+      Dos líneas: total ingresos y total gastos por mes (últimos 12 meses), sin filtrar por categoría. Se ve de un vistazo si cada mes hubo superávit o déficit y cómo evoluciona. Es el más claro para “¿me pasé o me sobró?”.
+    </>
+  ),
+},
+
+
+{
+  title: 'Neto acumulado 🔺',
+  // Aquí pasamos la ruta de la imagen
+  img: require('@site/static/img/trends_acumulado.webp').default,
+  description: (
+    <>
+      Una sola línea: mes a mes, suma acumulada de (ingresos − gastos). Muestra “cuánto fui ahorrando (o endeudando) en el tiempo” Muy útil para ver tendencia de ahorro.
+    </>
+  ),
+},
+
+
+{
+  title: 'Distribución de gastos por categoría y gráfica Sankey 🔺',
+  // Aquí pasamos la ruta de la imagen
+  img: require('@site/static/img/trends_dist_sankey.webp').default,
+  description: (
+    <>
+      A la izquierda, para los últimos 12 meses se muestra en una gráfica donut qué % del gasto total va a cada categoría. A la derecha se muestra un gráfico Sankey con una vista del tipo “donde se fue la plata”
     </>
   ),
 },
@@ -159,29 +196,11 @@ const FeatureList = [
     ),
   },
   {
-    title: 'Presupuestos',
-    Svg: () => <EmojiIcon emoji="💰" label="dinero" />, 
-    description: (
-      <>
-        Definí presupuestos por categoría (mensual o anual) y asociá qué categorías de transacciones suman a cada uno.
-      </>
-    ),
-  },
-  {
     title: 'Recurrencias',
     Svg: () => <EmojiIcon emoji="🔁" label="dinero" />, 
     description: (
       <>
         Próximos vencimientos visibles en el panel y en transacciones. Aviso cuando vence mañana. Ideal para suscripciones y pagos fijos.
-      </>
-    ),
-  },
-  {
-    title: 'Tendencias y evolución',
-    Svg: () => <EmojiIcon emoji="📈" label="dinero" />, 
-    description: (
-      <>
-        Gráficas de ingresos y gastos por categoría (12 meses). Evolución del patrimonio con zona positiva/negativa. Clic en una barra y vas directo a las transacciones de ese mes.
       </>
     ),
   },
