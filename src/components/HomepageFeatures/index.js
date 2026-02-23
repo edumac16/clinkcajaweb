@@ -114,7 +114,7 @@ const FeatureList = [
   img: require('@site/static/img/tendencia_de_categoria.webp').default,
   description: (
     <>
-      Un gráfico de barras con las categorías que más gasto o más ingreso generaron junto con una curva que muestra la diferencia entre ingresos y gastos en el mismo mes del año anterior.
+      Selecciona una categoría/subcategoría y verás un gráfico de barras con los valores mensuales, junto con una curva que muestra los valores del período anterior para que puedas comparar.
     </>
   ),
 },
@@ -126,7 +126,7 @@ const FeatureList = [
   img: require('@site/static/img/trends_i_vs_g.webp').default,
   description: (
     <>
-      Dos líneas: total ingresos y total gastos por mes (últimos 12 meses), sin filtrar por categoría. Se ve de un vistazo si cada mes hubo superávit o déficit y cómo evoluciona. Es el más claro para “¿me pasé o me sobró?”.
+      Dos líneas: total ingresos y total gastos por mes (últimos 12 meses), sin filtrar por categoría. Se ve de un vistazo si en cada mes hubo superávit o déficit y cómo evoluciona. Es el más claro para “¿me pasé o me sobró?”.
     </>
   ),
 },
@@ -150,7 +150,7 @@ const FeatureList = [
   img: require('@site/static/img/trends_dist_sankey.webp').default,
   description: (
     <>
-      A la izquierda, para los últimos 12 meses se muestra en una gráfica donut qué % del gasto total va a cada categoría. A la derecha se muestra un gráfico Sankey con una vista del tipo “donde se fue la plata”
+      A la izquierda, para los últimos 12 meses se muestra en una gráfica donut qué % del gasto total va a cada categoría. A la derecha se muestra un gráfico Sankey con una vista del tipo “donde se fue el dinero”
     </>
   ),
 },
