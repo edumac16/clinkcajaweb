@@ -1,5 +1,5 @@
 ---
-sidebar_position: 3
+sidebar_position: 5
 # title: Categorías
 description: Aprende cómo funcionan las categorías en ClinkCaja.
 ---
