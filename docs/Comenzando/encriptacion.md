@@ -1,7 +1,7 @@
 ---
 sidebar_position: 2
 title: Encriptación de datos
-description: Acerca de ClinkCaja.
+description: Cómo usar la encriptación de datos para que ni nosotros podamos ver tus datos.
 ---
 # Encriptación de descripciones en Clink Caja
 
