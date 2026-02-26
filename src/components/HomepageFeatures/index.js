@@ -21,7 +21,7 @@ const FeatureList = [
     // img: require('@site/static/img/dashboard1.png').default,
     description: (
       <>
-        Cuentas, transacciones, importación desde el banco, presupuestos y tendencias. Todo en un solo lugar y en español. Mira algunas características con imágenes a continuación
+        Cuentas, transacciones, importación desde el banco, control de tarjetas, presupuestos y tendencias. Datos encriptados (ni nosotros podemos verlos).
       </>
     ),
   },
@@ -168,12 +168,11 @@ const FeatureList = [
 
 
   {
-    title: 'Todo lo que necesitás para llevar las cuentas',
-    Svg: () => <EmojiIcon emoji="💳" label="dinero" />,
+    title: 'Datos encriptados',
+    Svg: () => <EmojiIcon emoji="🔒" label="dinero" />,
     description: (
       <>
-        Varias cuentas (caja, bancos, tarjetas). Saldo por cuenta y saldo acumulado. 
-        Filtros por fecha, categoría y cuenta.
+        Tus datos están encriptados. Ni nosotros podemos verlos. Fijarás una clave maestra para encriptar tus datos. Si la olvidas, ya no podrás ingresar pues no se almacena en ningún lado.
       </>
     ),
   },
@@ -221,7 +220,7 @@ const FeatureList = [
     Svg: () => <EmojiIcon emoji="🆓" label="dinero" />, 
     description: (
       <>
-        Puedes usar Clink Caja gratis por siempre. El único límite es el número de cuentas. La versión gratis permite hasta 3 cuentas. Si quieres pasarte a Premium pagas sólo USD 2.99 por mes. 
+        Puedes usar Clink Caja gratis por siempre. El único límite es el número de cuentas. Ambas versiones soportan encriptación de datos. La versión gratis permite hasta 3 cuentas. Si quieres pasarte a Premium pagas sólo USD 2.99 por mes. 
       </>
     ),
   },
