@@ -12,7 +12,7 @@ ClinkCaja es una aplicación web que se ejecuta desde cualquier navegador y pued
 
 ## Quién es el creador de ClinkCaja?
 
-Mi nombre es Eduardo, soy Analista de Sistemas, vivo en Uruguay y decidí crear ClinkCaja después de usar decenas de aplicaciones y ver que practicamente ninguna se adapta a la realidad de los que vivimos en Hispanoamérica.
+Mi nombre es Eduardo, soy Analista de Sistemas, vivo en Uruguay, me apasiona la programación, la contabilidad y las matemáticas. Decidí crear Clink Caja después de usar decenas de aplicaciones y ver que practicamente ninguna se adaptaba a lo que yo necesitaba. Después de usar la aplicación durante algún tiempo, decidí convertirla en SaaS y publicarla. 
 
 
 ---
@@ -21,15 +21,15 @@ Mi nombre es Eduardo, soy Analista de Sistemas, vivo en Uruguay y decidí crear 
 
 Algunas características distintas:
 
-1. Está enfocada exclusivamente para el mercado hispanoamericano, desarrollada totalmente en **español**.
+`1.` Está enfocada exclusivamente para el mercado hispanoamericano, desarrollada totalmente en **español**.
 
-2. Tiene un sistema opcional de encriptación de datos (sólo tú con una clave maestra puede ver los datos). Es una clave unidireccional, no se almacena en ningún lado, por tanto, si la olvidas, ya no podrás ingresar. Ni siquiera nosotros podemos ver tus datos. Ver [Encriptación de datos](/docs/Comenzando/encriptacion.md)
+`2.` Tiene un sistema opcional de encriptación de datos (sólo tú con una clave maestra puede ver los datos). Es una clave unidireccional, no se almacena en ningún lado, por tanto, si la olvidas, ya no podrás ingresar. Ni siquiera nosotros podemos ver tus datos.
 
-3. El ingreso de transacciones puede ser manual o a través de la importación de archivos CSV desde tu banco. Los Bancos hispanoamericanos no forman parte del "Open Banking", por tanto, sistemas de importación automática como Plaid no funcionan, y por ende, tampoco ClinkCaja tiene esa característica. Me enfoqué en pulir el sistema de importación de archivos CSV.
+`3.` El ingreso de transacciones puede ser manual o a través de la importación de archivos CSV desde tu banco. Los Bancos hispanoamericanos no forman parte del "Open Banking", por tanto, sistemas de importación automática como Plaid no funcionan, y por ende, tampoco ClinkCaja tiene esa característica. Me enfoqué en pulir el sistema de importación de archivos CSV.
 
-4. Es bimonetaria: es común que tengamos cuentas en la divisa de nuestro país y en dólares, por lo que puedes fijar la divisa de tu país como principal y el dólar como secundaria (o usar las 2 monedas que quieras). Las cuentas en la segunda moneda se mantienen en esa moneda, mientras que las estadísticas, reportes, etc, se muestran en la moneda primaria (los valores de la moneda secundaria se convierten a la cotización que tengas configurada).
+`4.` Es bimonetaria: es común que tengamos cuentas en la divisa de nuestro país y en dólares, por lo que puedes fijar la divisa de tu país como principal y el dólar como secundaria (o usar las 2 monedas que quieras). Las cuentas en la segunda moneda se mantienen en esa moneda, mientras que las estadísticas, reportes, etc, se muestran en la moneda primaria (los valores de la moneda secundaria se convierten a la cotización que tengas configurada).
 
-5. Control de **tarjetas de crédito**: En Hispanoamérica compramos a crédito con nuestras tarjetas, por lo que me enfoqué en que podamos tener controlado el saldo actual, conocer el saldo futuro, ver gráficamente que pasa si sólo pagamos el mínimo, etc.
+`5.` Control de **tarjetas de crédito**: En Hispanoamérica compramos a crédito con nuestras tarjetas, por lo que me enfoqué en que podamos tener controlado el saldo actual, conocer el saldo futuro, ver gráficamente que pasa si sólo pagamos el mínimo, etc.
 
 :::tip[Pago total]
 Esto es lo que ves si estás pagando el 100% de la tarjeta: no hay intereses y la deuda responde sólo a las cuotas de las compras
@@ -43,7 +43,7 @@ Esto es lo que ves si estás pagando el mínimo de la tarjeta: los intereses inc
 ![Esto es lo que ves si estás pagando el mínimo de la tarjeta](/img/tarjetapago10.webp)
 
 
-6. Las categorías y subcategorías pueden recibir ingresos y egresos, lo que te permite por ejemplo gestionar los costos de tu emprendimiento (al ingresar los ingresos y los costos, Clink Caja te calcula y muestra gráficamente la ganancia en tiempo real).
+`6.` Las categorías y subcategorías pueden recibir ingresos y egresos, lo que te permite por ejemplo gestionar los costos de tu emprendimiento (al ingresar los ingresos y los costos, Clink Caja te calcula y muestra gráficamente la ganancia en tiempo real).
 
 :::tip[Categorías como contenedores]
 En ClinkCaja, las categorías y subcategorías aceptan tanto ingresos como gastos. Esto facilita que puedas ingresar devoluciones de gastos como un ingreso, un costo de mercadería como un gasto, etc.

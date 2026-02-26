@@ -22,6 +22,12 @@ function HomepageHeader() {
             to="https://app.clinkcaja.com">
             Entrar a la app
           </Link>
+          <Link
+            className="button button--secondary button--sm"
+            to="/docs/category/comenzando"
+            target="_self">
+            Ver la documentación
+          </Link>
         </div>
       </div>
     </header>
