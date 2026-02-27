@@ -1,7 +1,7 @@
 ---
 sidebar_position: 4
 title: Cuentas
-description: Aprende cómo funcionan las cuentas en ClinkCaja.
+description: Aprende cómo funcionan las cuentas en Clink Caja.
 ---
 
 

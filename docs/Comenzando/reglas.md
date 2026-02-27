@@ -1,7 +1,7 @@
 ---
 sidebar_position: 7
 title: Reglas
-description: Aprende cómo categorizar las transacciones en forma automática en ClinkCaja.
+description: Aprende cómo categorizar las transacciones en forma automática en Clink Caja.
 ---
 
 # Reglas automáticas

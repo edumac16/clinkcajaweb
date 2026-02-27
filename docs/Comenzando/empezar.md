@@ -1,7 +1,7 @@
 ---
 sidebar_position: 3
 title: Empezar
-description: Aprende lo básico de ClinkCaja.
+description: Aprende lo básico de Clink Caja.
 ---
 
 # Empezar
@@ -20,7 +20,7 @@ Esta guía te lleva desde el registro hasta tener tu primera cuenta y tus primer
    - **Tu nombre** (opcional).
 4. Clic en **Registrarme**.
 
-Te enviaremos un email con un link para verificar el correo. Pulsa en el link y quedarás dentro de tu cuenta en ClinkCaja.
+Te enviaremos un email con un link para verificar el correo. Pulsa en el link y quedarás dentro de tu cuenta en Clink Caja.
 
 ---
 

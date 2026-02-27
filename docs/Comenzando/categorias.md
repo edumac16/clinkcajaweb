@@ -1,7 +1,7 @@
 ---
 sidebar_position: 5
 # title: Categorías
-description: Aprende cómo funcionan las categorías en ClinkCaja.
+description: Aprende cómo funcionan las categorías en Clink Caja.
 ---
 
 # Categorías
@@ -9,7 +9,7 @@ description: Aprende cómo funcionan las categorías en ClinkCaja.
 Las categorías sirven para ordenar ingresos y gastos (Supermercado, Servicios, Sueldo, etc.). Podés tener subcategorías para afinar más.
 
 :::tip[Categorías como contenedores]
-En ClinkCaja, las categorías y subcategorías aceptan tanto ingresos como gastos. Esto facilita que puedas ingresar devoluciones de gastos como un ingreso, un costo de mercadería como un gasto, etc.
+En Clink Caja, las categorías y subcategorías aceptan tanto ingresos como gastos. Esto facilita que puedas ingresar devoluciones de gastos como un ingreso, un costo de mercadería como un gasto, etc.
 
 Puedes tener algo así:
 

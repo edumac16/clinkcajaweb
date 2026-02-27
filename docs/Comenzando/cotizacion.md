@@ -1,7 +1,7 @@
 ---
 sidebar_position: 6
 # title: Cotizaciones
-description: Aprende cómo funcionan la cotización de monedas en ClinkCaja.
+description: Aprende cómo funcionan la cotización de monedas en Clink Caja.
 ---
 
 # Cotización

@@ -1,16 +1,16 @@
 ---
 sidebar_position: 1
 title: Presentación
-description: Acerca de ClinkCaja.
+description: Acerca de Clink Caja.
 ---
 
-# Qué es ClinkCaja
+# Qué es Clink Caja
 
-ClinkCaja es una aplicación web que se ejecuta desde cualquier navegador y puedes colocarla como una app en tu celular.
+Clink Caja es una aplicación web que se ejecuta desde cualquier navegador y puedes colocarla como una app en tu celular.
 
 ---
 
-## Quién es el creador de ClinkCaja?
+## Quién es el creador de Clink Caja?
 
 Mi nombre es Eduardo, soy Analista de Sistemas, vivo en Uruguay, me apasiona la programación, la contabilidad y las matemáticas. Decidí crear Clink Caja después de usar decenas de aplicaciones y ver que practicamente ninguna se adaptaba a lo que yo necesitaba. Después de usar la aplicación durante algún tiempo, decidí convertirla en SaaS y publicarla. 
 
@@ -25,7 +25,7 @@ Algunas características distintas:
 
 `2.` Tiene un sistema opcional de encriptación de datos (sólo tú con una clave maestra puede ver los datos). Es una clave unidireccional, no se almacena en ningún lado, por tanto, si la olvidas, ya no podrás ingresar. Ni siquiera nosotros podemos ver tus datos.
 
-`3.` El ingreso de transacciones puede ser manual o a través de la importación de archivos CSV desde tu banco. Los Bancos hispanoamericanos no forman parte del "Open Banking", por tanto, sistemas de importación automática como Plaid no funcionan, y por ende, tampoco ClinkCaja tiene esa característica. Me enfoqué en pulir el sistema de importación de archivos CSV.
+`3.` El ingreso de transacciones puede ser manual o a través de la importación de archivos CSV desde tu banco. Los Bancos hispanoamericanos no forman parte del "Open Banking", por tanto, sistemas de importación automática como Plaid no funcionan, y por ende, tampoco Clink Caja tiene esa característica. Me enfoqué en pulir el sistema de importación de archivos CSV.
 
 `4.` Es bimonetaria: es común que tengamos cuentas en la divisa de nuestro país y en dólares, por lo que puedes fijar la divisa de tu país como principal y el dólar como secundaria (o usar las 2 monedas que quieras). Las cuentas en la segunda moneda se mantienen en esa moneda, mientras que las estadísticas, reportes, etc, se muestran en la moneda primaria (los valores de la moneda secundaria se convierten a la cotización que tengas configurada).
 
@@ -43,12 +43,10 @@ Esto es lo que ves si estás pagando el mínimo de la tarjeta: los intereses inc
 ![Esto es lo que ves si estás pagando el mínimo de la tarjeta](/img/tarjetapago10.webp)
 
 
-`6.` Las categorías y subcategorías pueden recibir ingresos y egresos, lo que te permite por ejemplo gestionar los costos de tu emprendimiento (al ingresar los ingresos y los costos, Clink Caja te calcula y muestra gráficamente la ganancia en tiempo real).
+`6.` Las categorías y subcategorías pueden recibir ingresos y egresos, lo que te permite por ejemplo gestionar los costos de tu emprendimiento (al registrar los ingresos y los costos, Clink Caja te calcula y muestra gráficamente la ganancia en tiempo real).
 
 :::tip[Categorías como contenedores]
-En ClinkCaja, las categorías y subcategorías aceptan tanto ingresos como gastos. Esto facilita que puedas ingresar devoluciones de gastos como un ingreso, un costo de mercadería como un gasto, etc.
-
-Puedes tener algo así:
+En Clink Caja, las categorías y subcategorías aceptan tanto ingresos como gastos. Esto facilita que puedas tener algo así:
 
 - `MI NEGOCIO` (**categoría como contenedor, aquí no registras nada**)
 
@@ -63,7 +61,7 @@ Puedes tener algo así:
     -- `Impuestos` (subcategoría)
 
 
-Entonces, en la categoría `MI NEGOCIO` tendrás las ganancias o pérdidas netas, en `Ventas` las ventas brutas, en las demás los gastos. Si la suma de todos los ingresos son mayores a la suma de los gastos, la categoría `MI NEGOCIO` se mostrará bajo INGRESOS, de lo contrario, se mostrará bajo GASTOS, y verás el detalle de cada una.    
+Entonces, en la categoría `MI NEGOCIO` tendrás la ganancia neta, en `Ventas` las ventas brutas, en las demás los gastos. Si la suma de todos los ingresos son mayores a la suma de los gastos, la categoría `MI NEGOCIO` se mostrará bajo INGRESOS, de lo contrario, se mostrará bajo GASTOS, y en ambos casos verás el detalle de cada una.    
 
 ![Categorias](/img/categorias_negocios.webp)
 
@@ -71,12 +69,12 @@ Entonces, en la categoría `MI NEGOCIO` tendrás las ganancias o pérdidas netas
 
 
 
-## Quienes pueden usar ClinkCaja
+## Quienes pueden usar Clink Caja
 
 La aplicación está disponible para todos los países de Hispanoamérica y España (si intentas ingresar desde otro país, te rechazará la conexión)
 
 
-![Paises donde puedes usar ClinkCaja](/img/paises.webp)
+![Paises donde puedes usar Clink Caja](/img/paises.webp)
 
 ---
 ## Es gratis?

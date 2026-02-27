@@ -220,7 +220,7 @@ const FeatureList = [
     Svg: () => <EmojiIcon emoji="🆓" label="dinero" />, 
     description: (
       <>
-        Puedes usar Clink Caja gratis por siempre. El único límite es el número de cuentas. Ambas versiones soportan encriptación de datos. La versión gratis permite hasta 3 cuentas. Si quieres pasarte a Premium pagas sólo USD 2.99 por mes. 
+        Puedes usar Clink Caja gratis por siempre. El único límite es el número de cuentas. La versión gratis permite hasta 3 cuentas. Si quieres pasarte a Premium pagas sólo USD 2.99 por mes. Ambas versiones soportan encriptación de datos.
       </>
     ),
   },
